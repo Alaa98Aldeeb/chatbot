@@ -1,0 +1,35 @@
+{"intents": [
+    {"tag": "greetings",
+    "pattern": ["hello", "hi", "hey", "how are you", "what's up?", "good day", "greeting"],
+    "response": ["hello!", "hey!", "i'am fine, thank you!", "it's ok, thanks!", "thank you!, you too."]},
+    
+    
+    {"tag": "goodbye",
+    "pattern": ["cya", "see you later", "goodbye", "have a good day", "bye", "see ya", "i'am leaving"],
+    "response": ["ok, see you again, goodbye!"]},
+
+
+    {"tag": "name",
+    "pattern": ["what's your name?", "what shoud i call you?", "who are you?", "your name please!", "what's your title?"],
+    "response": ["i'm kito"]},
+
+
+    {"tag": "age",
+    "pattern": ["what's your age?", "how old are you?", "age?", "how old?"],
+    "response": ["my owner was 21 years old!"]},
+
+
+    {"tag": "services",
+    "pattern": ["what's your services", "what you offer?", "your offers please!", "what's your products?", "your products?", "your offers?"],
+    "response": ["we provide many technical and software tools and packages to make your work more easy like building websites and applicatios."]},
+
+
+    {"tag": "price",
+    "pattern": ["what your prices?", "what prices of your products?", "how much you sell for product?", "how much of products?", "how much of your offers?", "prices of products?", "prices of offers?"],
+    "response": ["you can find all details via contact our customer support here: aaa@kiPay.com"]},
+
+
+    {"tag": "contact",
+    "pattern": ["how can i reach you?", "who can i contact with?", "how should i know your offers?", "where can i find customer support?", "what's your contact channel?", "is there any links can i use?", "who are your customer support?", "help me please to reach out your contact!", "your contact please!", "any contact!", "contact way!", "contact!"],
+    "response": ["you can go through given link test@kitoCustommerSupport.com to find any answer for your questions."]}
+]}
